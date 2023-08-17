@@ -22,7 +22,7 @@ export class CartComponent {
 
   OnSubmit(): void {
     this.items = this.cartService.clearItems();
-    console.warn('>Your Order has been submitted', this.checkoutForm.value);
+    console.warn('Your order has been submitted', this.checkoutForm.value);
     this.checkoutForm.reset();
   }
 }
